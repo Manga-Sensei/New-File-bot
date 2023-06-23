@@ -75,15 +75,15 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                        InlineKeyboardButton("🔊ß⊕†s chαηηεl", url="https://t.me/LazyDeveloper")
+                        InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/anim3chat"),
+                        InlineKeyboardButton("🔊ß⊕†s chαηηεl", url="https://t.me/Ani3Lix_clan")
                     ],
                     [
                         InlineKeyboardButton("🤖Aß⊕ut ß⊕†", callback_data="aboutbot"),
                         InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                     ],
                     [
-                        InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
+                        InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/")
                     ]]))
         else :
             await cmd.reply_photo(photo=lazy_pic,
@@ -91,15 +91,15 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                        InlineKeyboardButton("🔊ß⊕†s chαηηεl", url="https://t.me/LazyDeveloper")
+                        InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/Anim3chat"),
+                        InlineKeyboardButton("🔊ß⊕†s chαηηεl", url="https://t.me/Ani3Lix_clan")
                     ],
                     [
                         InlineKeyboardButton("🤖Aß⊕ut ß⊕†", callback_data="aboutbot"),
                         InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                     ],
                     [
-                        InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
+                        InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/")
                     ]]))
            
     else:
@@ -138,7 +138,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("ꜱᴏʀʀʏ, ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ!\n\nContact [Support Group](https://t.me/LazyDeveloperSupport)",
+            await message.reply_text("ꜱᴏʀʀʏ, ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ!\n\nContact [Support Group](https://t.me/Anim3chat)",
                                      disable_web_page_preview=True)
             return
 
@@ -166,7 +166,7 @@ async def main(bot: Client, message: Message):
         try:
             forwarded_msg = await message.forward(Config.DB_CHANNEL)
             file_er_id = str(forwarded_msg.id)
-            share_link = f"https://t.me/{Config.BOT_USERNAME}?start=LazyDeveloperr_{str_to_b64(file_er_id)}"
+            share_link = f"https://t.me/{Config.BOT_USERNAME}?start=DowNes_Edits_{str_to_b64(file_er_id)}"
             CH_edit = await bot.edit_message_reply_markup(message.chat.id, message.id,
                                                           reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(
                                                               "GΞΓ SHAЯeABLΞ LIИҜ", url=share_link)]]))
@@ -368,15 +368,15 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                        InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/LazyDeveloper")
+                        InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/Anim3chat"),
+                        InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/Ani3Lix_clan")
                     ],
                     [
                         InlineKeyboardButton("🤖Aß⊕ut ß⊕t", callback_data="aboutbot"),
                         InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                     ],
                     [
-                        InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
+                        InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/")
                     ]
                 ]
             )
@@ -388,15 +388,15 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                        InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/LazyDeveloper")
+                        InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/Anim3chat"),
+                        InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/Ani3Lix_Clan")
                     ],
                     [
                         InlineKeyboardButton("🤖Aß⊕ut ß⊕t", callback_data="aboutbot"),
                         InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                     ],
                     [
-                        InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
+                        InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/")
                     ]
                 ]
             )
@@ -412,7 +412,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="ꜱᴏʀʀʏ ꜱɪʀ, ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜꜱᴇ ᴍᴇ. ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [Support Group](https://t.me/LazyDeveloperSupport).",
+                        text="ꜱᴏʀʀʏ ꜱɪʀ, ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜꜱᴇ ᴍᴇ. ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [Support Group](https://t.me/Anim3chat).",
                         disable_web_page_preview=True
                     )
                     return
@@ -435,7 +435,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="ꜱᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ. ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [Support Group](https://t.me/LazyDeveloperSupport).",
+                    text="ꜱᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ. ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [Support Group](https://t.me/Anim3chat).",
                     disable_web_page_preview=True
                 )
                 return
@@ -446,15 +446,15 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                        InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/LazyDeveloper")
+                        InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/Anim3chat"),
+                        InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/Ani3Lix_clan")
                     ],
                     [
                         InlineKeyboardButton("🤖Aß⊕ut ß⊕t", callback_data="aboutbot"),
                         InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                     ],
                     [
-                        InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
+                        InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/")
                     ]
                 ]
             )
@@ -466,15 +466,15 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                        InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/LazyDeveloper")
+                        InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/Anim3chat"),
+                        InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/Ani3Lix_clan")
                     ],
                     [
                         InlineKeyboardButton("🤖Aß⊕ut ß⊕t", callback_data="aboutbot"),
                         InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                     ],
                     [
-                        InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
+                        InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/")
                     ]
                 ]
             )
